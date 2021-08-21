@@ -15,7 +15,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid red;
     border-radius: 10px;
 }
 
@@ -23,7 +23,6 @@ header h1 {
     font-size: 36px;
     margin: 0;
     
-
 }
 
 header h1 a {
@@ -50,10 +49,6 @@ header nav ul a {
     text-decoration: none;
 }
 
-section {
-    padding: 70px;
-    
-}
 
 .hero {
     background-image: url("../images/crypto-background.jpeg");
@@ -62,7 +57,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     background-image: linear-gradient();
-     
+    padding: 130px 70px 70px 115px;
+    
 }
 
 .image {
@@ -73,12 +69,34 @@ section {
 .hero-subtitle {
     background-color: aliceblue;
     width: 17%;
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 25px;
     align-self: flex-end;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 12px;
     padding: 5px 10px;
  
 }
 
+.about-me {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 130px 70px 90px 70px;
+}
+
+.about-title {
+    width: 20%;
+    border-right: 2px solid #1c1d25;
+    font-size: 28px;
+    padding: 90px 10px;
+    margin: 0px 80px 25px;
+    
+}
+
+.about-info {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.7;;
+}
