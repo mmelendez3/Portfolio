@@ -51,7 +51,7 @@ header nav ul a {
 }
 
 section {
-    padding: 135px;
+    padding: 70px;
     
 }
 
@@ -59,17 +59,26 @@ section {
     background-image: url("../images/crypto-background.jpeg");
     background-size: cover;
     background-position: 80%;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient();
+     
+}
+
+.image {
     
+    justify-content: flex-start;
 }
 
 .hero-subtitle {
-    background-color: darkgray;
-    width: 10%;
-    position: absolute;
-    margin: 32px 26px 20px 131px;
-    font-size: 17px;
+    background-color: aliceblue;
+    width: 17%;
+    font-size: 12px;
+    margin-left: 25px;
+    align-self: flex-end;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 12px;
+    padding: 5px 10px;
  
-   
-    
 }
+
