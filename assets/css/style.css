@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1c1d25
+}
+
+header {
+    padding: 20px 50px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid red;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    
+
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #1c1d25;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul a {
+    padding: 10px 35px;
+    color: #1c1d25;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+section {
+    padding: 135px;
+    
+}
+
+.hero {
+    background-image: url("../images/crypto-background.jpeg");
+    background-size: cover;
+    background-position: 80%;
+    position: relative;
+    
+}
+
+.hero-subtitle {
+    background-color: darkgray;
+    width: 10%;
+    position: absolute;
+    margin: 32px 26px 20px 131px;
+    font-size: 17px;
+ 
+   
+    
+}
