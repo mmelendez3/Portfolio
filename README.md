@@ -11,8 +11,9 @@
 
 
 ### Links and Screenshot of website
-    - GitHub repository URL: https://github.com/mmelendez3/Portfolio
     
-    - Live website URL: https://mmelendez3.github.io/Portfolio/
+- GitHub repository URL: https://github.com/mmelendez3/Portfolio
+    
+- Live website URL: https://mmelendez3.github.io/Portfolio/
 
-    ![](./assets/images/portfolio_screenshot.png "Personal Portfolio")
+- ![](./assets/images/portfolio_screenshot.png "Personal Portfolio")
