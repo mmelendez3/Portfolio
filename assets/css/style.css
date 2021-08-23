@@ -12,11 +12,11 @@ body {
 
 header {
     padding: 20px 50px;
-    background-color: aliceblue;
+    background-color: #dbe2e9;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #df0c0c;
     border-radius: 10px;
 }
 
@@ -57,78 +57,89 @@ header nav ul a {
     background-position: 80%;
     display: flex;
     flex-wrap: wrap;
-    padding: 130px 70px 70px 115px;
+    min-height: 380px;
     
 }
 
 .image {
     
-    justify-content: flex-start;
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-left: 50px;
 }
 
 .hero-subtitle {
-    background-color: aliceblue;
+    background-color: #edf1f5;
     width: 24%;
-    font-size: 16px;
+    font-size: 12px;
     margin-left: 25px;
+    margin-bottom: 25px;
     align-self: flex-end;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 12px;
     padding: 5px 10px;
-    border: 1.5px solid red;
+    border: 1.5px solid #df0c0c;
  
 }
 /* about me section */
 
 .about-me {
-    background-color: aliceblue;
+    background-color: #dbe2e9;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    padding: 130px 70px 90px 70px;
-    border-top: 3px solid red;
+    padding: 90px 70px 90px 40px;
+    border-top: 3px solid #df0c0c;
 }
 
 .about-title {
     width: 20%;
-    border-right: 2px solid #1c1d25;
-    font-size: 40px;
+    border-right: 2px solid #b69d32;
+    font-size: 30px;
     padding: 90px 10px;
-    margin: 0px 80px 25px;
+    margin: 0px 6px;
     
 }
 
 .about-info {
-    width: 60%;
+    width: 65%;
     font-size: 18px;
     line-height: 1.7;
+    margin: 50px auto;
+    padding: 20px;
+
 }
 
 /* work section */
 
 .work-section {
-    background-color: aliceblue;
+    background-color: #dbe2e9;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    padding: 130px 70px 90px 70px;
-    border-top: 3px solid red;
+    padding: 90px 70px 90px 40px;
+    border-top: 3px solid #df0c0c;
     
 }
 
 .work-title {
     width: 20%;
-    border-right: 2px solid #1c1d25;
-    font-size: 40px;
+    border-right: 2px solid #b69d32;
+    font-size: 30px;
     padding: 90px 10px;
-    margin: 0px 80px 25px;
+    margin: 0px 6px;
+    
+}
+
+.work-title h2 {
+    margin: 1px 3px;
 }
 
 main {
     width: 65%;
     margin: 50px auto;
     padding: 20px;
-    background-color: aliceblue;
+    background-color: #dbe2e9;
     
   }
   
@@ -145,43 +156,37 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    margin: 5px 0 0 50px;
   }
 
   .big-flex-item {
-    width: 80%;
+    width: 100%;
     border-radius: 14px;
-    border: 4px solid #fb3e55;
-    background-color: #393b4f;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    margin-left: 75px;
     background-image: url("../images/runbuddy.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     padding: 20px 0;
-    min-height: 250px;
+    min-height: 275px;
     display: flex;
-    flex-direction: row;
+    
   }
   
   
   .flex-item {
-    
     width: 45%;
     border-radius: 14px;
-    border: 4px solid #fb3e55;
-    background-color: #393b4f;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    background-image: url('https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder');
     background-size: cover;
     background-position: center;
     padding: 20px 0;
     min-height: 250px;
     display: flex;
-    flex-direction: column;
+    
   }
 
   #flex-item2 {
@@ -202,14 +207,6 @@ main {
   }
   
   
-  .flex-item span {
-    margin-top: auto;
-    width: 100%;
-    background-color: #a8adba;
-    color: #393b4f;
-    padding: 10px 5px;
-    text-align: center;
-  }
 
   .big-flex-item span, .flex-item span {
     margin-top: auto;
@@ -224,24 +221,29 @@ main {
   /* Contact Section */
 
   .contact-section {
-    background-color: aliceblue;
+    background-color: #dbe2e9;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    padding: 130px 70px 90px 30px;
-    border-top: 3px solid red;
+    padding: 90px 70px 90px 40px;
+    border-top: 3px solid #df0c0c;
   }
 
   .contact-title {
-    width: 23%;
-    border-right: 2px solid #1c1d25;
-    font-size: 40px;
+    width: 20%;
+    border-right: 2px solid #b69d32;
+    font-size: 25px;
     padding: 90px 10px;
-    margin: 0px 80px 25px;
+    margin: 0px 6px;
+    
+  }
+
+  .contact-title h2 {
+      width: 8%;
   }
 
   .contact-info {
-    width: 60%;
+    width: 77%;
     font-size: 18px;
     line-height: 1.7;
     display: flex;
@@ -262,13 +264,124 @@ main {
   .contact-info nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
   }
 
   .contact-info nav ul a {
     padding: 10px 35px;
     color: #1c1d25;
+    text-decoration-color: #b69d32;
     font-size: 20px;
   }
+
+  @media screen and (max-width: 981px) {
+  header {
+    justify-content: center;
+    padding: 20px 130px
+  }
+    
+
+
+.about-title {
+    width: 50%;
+    border-bottom: 2px solid #b69d32;
+    border-right: none;
+    padding: 30px 10px;
+}
+.about-me {
+    justify-content: center;
+    padding: 45px 70px 90px 40px;
+}
+
+.about-title h2 {
+    text-align: center;
+}
+
+.about-info {
+    margin: 15px auto;
+}
+
+.work-section {
+    padding: 45px 70px 90px 40px;
+    justify-content: center;
+}
+
+.work-title {
+    width: 50%;
+    border-bottom: 2px solid #b69d32;
+    border-right: none;
+    padding: 30px 10px;
+
+}
+
+.work-title h2 {
+    text-align: center;
+}
+
+.contact-section {
+    padding: 45px 70px 90px 40px;
+    justify-content: center;
+}
+
+.contact-title {
+    width: 50%;
+    border-bottom: 2px solid #b69d32;
+    border-right: none;
+    padding: 30px 10px;
+    
+
+}
+
+.contact-title h2{
+    text-align: center;
+    width: 100%;
+}
+
+.contact-info nav ul {
+    flex-direction: column;
+}
+.flex-container {
+    margin: 0;
+}
+
+@media screen and (max-width: 741px) {
+    header nav ul a {
+        padding: 10px 13px;
+    }
+    .flex-container {
+        margin: 0;
+    }
+
+@media screen and (max-width: 615px) {
+    header nav ul {
+        flex-direction: column;
+    }
+    .flex-container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    header h1 {
+        width: 53%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .about-info {
+        margin: 15px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .about-me {
+        padding: 45px 40px 90px 40px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .flex-container {
+        margin: 0;
+    }
