@@ -31,6 +31,11 @@ header h1 a {
     color: #1c1d25;
 }
 
+.logo {
+    display: inline;
+    margin-left: -10px;
+}
+
 header nav {
     margin: 7px 0;
 }
@@ -190,7 +195,7 @@ main {
   }
 
   #flex-item2 {
-    background-image: url("../images/softwareengineer.jpeg");
+    background-image: url("../images/kanye-guess.png");
     
   }
   #flex-item3 {
