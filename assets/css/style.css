@@ -199,7 +199,8 @@ main {
     
   }
   #flex-item3 {
-    background-image: url("../images/software-skills.png");
+    background-image: url("../images/readme.png");
+    background-position: top;
     
   }
   #flex-item4 {
